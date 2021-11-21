@@ -1,19 +1,18 @@
 {
     "configurations": [
         {
-            "name": "Mac",
+            "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/Library/Developer/CommandLineTools/usr/include/c++/v1",
-                "/usr/local/Cellar/cpprestsdk/2.10.16/include",
-                "/usr/local/Cellar/poco/1.10.1/include"
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/external/**"
             ],
             "defines": [],
-            "macFrameworkPath": [],
-            "compilerPath": "/usr/local/bin/gcc-7",
-            "cStandard": "gnu11",
+            "compilerPath": "/usr/local/bin/gcc",
+            "cStandard": "gnu17",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "clang-x64"
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4

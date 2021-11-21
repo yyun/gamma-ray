@@ -1,0 +1,874 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"target_set_warnings",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/Warnings.cmake",
+			"cmake/Doctest.cmake",
+			"cmake/Misc.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 91,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 13,
+				"parent" : 10
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Werror -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -pthread -g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wfatal-errors"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-include-dirs"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pthread"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-switch-enum"
+				},
+				{
+					"fragment" : "-std=c++1z"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/euweb/mygit/gamma-ray/build/CMakeFiles/main.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CPPREST_FORCE_HTTP_CLIENT_ASIO"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "CPPREST_FORCE_HTTP_LISTENER_ASIO"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "CPPREST_NO_SSL_LEAK_SUPPRESS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ENABLE_DOCTEST_IN_LIBRARY"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_ENABLE_CPP11"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_ENABLE_CPP14"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_HAVE_FD_EPOLL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_OS_FAMILY_UNIX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "XML_DTD"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_XOPEN_SOURCE=500"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/euweb/mygit/gamma-ray/build"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/euweb/mygit/gamma-ray/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/euweb/mygit/gamma-ray/external/doctest/doctest"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/euweb/mygit/gamma-ray/external/websocketpp"
+				}
+			],
+			"language" : "CXX",
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 2,
+					"header" : "<string>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<vector>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<map>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<iostream>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<stdlib.h>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<functional>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<future>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<chrono>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<thread>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<algorithm>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<cmath>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<unistd.h>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/BasicEvent.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/Delegate.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/UUIDGenerator.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/DateTime.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/Util/Timer.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/Util/TimerTaskAdapter.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/Timestamp.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/Logger.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/DateTimeParser.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/DateTimeFormat.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/external/websocketpp/websocketpp/client.hpp"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/external/websocketpp/websocketpp/config/asio_client.hpp"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/json.hpp"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/util.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/bitmexhttp.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/bitmexws.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/delta_parser.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/market_filtration.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/fair_value.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Werror -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -pthread -g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wfatal-errors"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wmissing-include-dirs"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pthread"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-switch-enum"
+				},
+				{
+					"fragment" : "-std=c++1z"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/euweb/mygit/gamma-ray/build/CMakeFiles/main.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CPPREST_FORCE_HTTP_CLIENT_ASIO"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "CPPREST_FORCE_HTTP_LISTENER_ASIO"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "CPPREST_NO_SSL_LEAK_SUPPRESS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ENABLE_DOCTEST_IN_LIBRARY"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_ENABLE_CPP11"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_ENABLE_CPP14"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_HAVE_FD_EPOLL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "POCO_OS_FAMILY_UNIX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "XML_DTD"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_XOPEN_SOURCE=500"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/euweb/mygit/gamma-ray/build"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/euweb/mygit/gamma-ray/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/euweb/mygit/gamma-ray/external/doctest/doctest"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/euweb/mygit/gamma-ray/external/websocketpp"
+				}
+			],
+			"language" : "CXX",
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 2,
+					"header" : "<string>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<vector>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<map>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<iostream>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<stdlib.h>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<functional>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<future>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<chrono>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<thread>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<algorithm>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<cmath>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "<unistd.h>"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/BasicEvent.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/Delegate.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/UUIDGenerator.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/DateTime.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/Util/Timer.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/Util/TimerTaskAdapter.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/Timestamp.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/Logger.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/DateTimeParser.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/usr/local/include/Poco/DateTimeFormat.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/external/websocketpp/websocketpp/client.hpp"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/external/websocketpp/websocketpp/config/asio_client.hpp"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/json.hpp"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/util.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/bitmexhttp.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/bitmexws.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/delta_parser.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/market_filtration.h"
+				},
+				{
+					"backtrace" : 2,
+					"header" : "/home/euweb/mygit/gamma-ray/include/fair_value.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "engine::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "main::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -Werror -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -pthread -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_chrono.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_atomic.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lssl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcrypto",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libPocoUtil.so.80",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libPocoXML.so.80",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libPocoJSON.so.80",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libPocoNet.so.80",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libPocoFoundation.so.80",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcpprest.so.2.10",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libssl.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "main",
+	"nameOnDisk" : "main",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/CMakeFiles/main.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "app/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/CMakeFiles/main.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/cmake_pch.hxx.gch",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/models.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/ws.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/bitmexws.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/delta_parser.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/bitmexhttp.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/bitmex_gateway.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/market_filtration.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/fair_value.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/quoting_strategies.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/quoting_parameters.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/skew.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/quoting_engine.cpp.o",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/engine.dir/src/quote_dispatcher.cpp.o",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

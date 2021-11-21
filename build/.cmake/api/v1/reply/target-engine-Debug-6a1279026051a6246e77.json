@@ -1,0 +1,834 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/engine.dir/./cmake_pch.hxx.gch"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/models.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/ws.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/bitmexws.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/delta_parser.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/bitmexhttp.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/bitmex_gateway.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/market_filtration.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/fair_value.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/quoting_strategies.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/quoting_parameters.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/skew.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/quoting_engine.cpp.o"
+		},
+		{
+			"path" : "CMakeFiles/engine.dir/./src/quote_dispatcher.cpp.o"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"target_compile_options",
+			"target_set_warnings",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"include_directories",
+			"target_include_directories",
+			"target_precompile_headers"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/Warnings.cmake",
+			"cmake/Doctest.cmake",
+			"cmake/Misc.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 91,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 13,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Werror -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -pthread -g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wfatal-errors"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wmissing-include-dirs"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-pthread"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-switch-enum"
+				},
+				{
+					"fragment" : "-std=c++1z"
+				},
+				{
+					"fragment" : "-Winvalid-pch -x c++-header -include /home/euweb/mygit/gamma-ray/build/CMakeFiles/engine.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CPPREST_FORCE_HTTP_CLIENT_ASIO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CPPREST_FORCE_HTTP_LISTENER_ASIO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CPPREST_NO_SSL_LEAK_SUPPRESS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ENABLE_DOCTEST_IN_LIBRARY"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "POCO_ENABLE_CPP11"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "POCO_ENABLE_CPP14"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "POCO_HAVE_FD_EPOLL"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "POCO_OS_FAMILY_UNIX"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "XML_DTD"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_XOPEN_SOURCE=500"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/euweb/mygit/gamma-ray/build"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/euweb/mygit/gamma-ray/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/euweb/mygit/gamma-ray/external/doctest/doctest"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/euweb/mygit/gamma-ray/external/websocketpp"
+				}
+			],
+			"language" : "CXX",
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 16,
+					"header" : "<string>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<vector>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<map>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<iostream>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<stdlib.h>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<functional>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<future>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<chrono>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<thread>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<algorithm>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<cmath>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<unistd.h>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/BasicEvent.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/Delegate.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/UUIDGenerator.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/DateTime.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/Util/Timer.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/Util/TimerTaskAdapter.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/Timestamp.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/Logger.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/DateTimeParser.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/DateTimeFormat.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/external/websocketpp/websocketpp/client.hpp"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/external/websocketpp/websocketpp/config/asio_client.hpp"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/json.hpp"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/util.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/bitmexhttp.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/bitmexws.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/delta_parser.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/market_filtration.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/fair_value.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Werror -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -pthread -g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wfatal-errors"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wmissing-include-dirs"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-pthread"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-switch-enum"
+				},
+				{
+					"fragment" : "-std=c++1z"
+				},
+				{
+					"fragment" : "-Winvalid-pch -include /home/euweb/mygit/gamma-ray/build/CMakeFiles/engine.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CPPREST_FORCE_HTTP_CLIENT_ASIO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CPPREST_FORCE_HTTP_LISTENER_ASIO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CPPREST_NO_SSL_LEAK_SUPPRESS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ENABLE_DOCTEST_IN_LIBRARY"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "POCO_ENABLE_CPP11"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "POCO_ENABLE_CPP14"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "POCO_HAVE_FD_EPOLL"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "POCO_OS_FAMILY_UNIX"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "XML_DTD"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_REENTRANT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_XOPEN_SOURCE=500"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/euweb/mygit/gamma-ray/build"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/euweb/mygit/gamma-ray/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/euweb/mygit/gamma-ray/external/doctest/doctest"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/euweb/mygit/gamma-ray/external/websocketpp"
+				}
+			],
+			"language" : "CXX",
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 16,
+					"header" : "<string>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<vector>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<map>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<iostream>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<stdlib.h>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<functional>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<future>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<chrono>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<thread>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<algorithm>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<cmath>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "<unistd.h>"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/BasicEvent.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/Delegate.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/UUIDGenerator.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/DateTime.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/Util/Timer.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/Util/TimerTaskAdapter.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/Timestamp.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/Logger.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/DateTimeParser.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/usr/local/include/Poco/DateTimeFormat.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/external/websocketpp/websocketpp/client.hpp"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/external/websocketpp/websocketpp/config/asio_client.hpp"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/json.hpp"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/util.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/bitmexhttp.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/bitmexws.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/delta_parser.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/market_filtration.h"
+				},
+				{
+					"backtrace" : 16,
+					"header" : "/home/euweb/mygit/gamma-ray/include/fair_value.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"id" : "engine::@6890427a1f51a3e7e1df",
+	"name" : "engine",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/CMakeFiles/engine.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/models.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ws.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/bitmexws.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/delta_parser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/bitmexhttp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/bitmex_gateway.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/market_filtration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/fair_value.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/quoting_strategies.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/quoting_parameters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/skew.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/quoting_engine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/quote_dispatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/CMakeFiles/engine.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

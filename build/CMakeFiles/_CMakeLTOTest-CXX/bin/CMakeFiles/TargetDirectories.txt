@@ -1,0 +1,4 @@
+/home/euweb/mygit/gamma-ray/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
+/home/euweb/mygit/gamma-ray/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/euweb/mygit/gamma-ray/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/euweb/mygit/gamma-ray/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
