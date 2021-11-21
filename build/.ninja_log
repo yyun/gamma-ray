@@ -1,0 +1,23 @@
+# ninja log v5
+0	34000	1637506089	tests/CMakeFiles/unit_tests.dir/cmake_pch.hxx.gch	9490f9a6c55f02c6
+0	34423	1637506090	CMakeFiles/main.dir/cmake_pch.hxx.gch	b27f0a8b67584b4c
+0	34771	1637506090	CMakeFiles/engine.dir/cmake_pch.hxx.gch	c87d83f81c815b5d
+34771	147717	1637506203	CMakeFiles/engine.dir/src/models.cpp.o	4b6b3bc19d11164b
+34774	148252	1637506204	CMakeFiles/engine.dir/src/delta_parser.cpp.o	de5b31cefa6cecb7
+34773	161729	1637506217	CMakeFiles/engine.dir/src/bitmexws.cpp.o	c3be03704d1eff9d
+34773	206939	1637506262	CMakeFiles/engine.dir/src/ws.cpp.o	78b63166481b3b56
+148252	215244	1637506271	CMakeFiles/engine.dir/src/bitmex_gateway.cpp.o	acb1f4e7dba21953
+147720	217658	1637506273	CMakeFiles/engine.dir/src/bitmexhttp.cpp.o	57197a94cfc37183
+161731	219922	1637506275	CMakeFiles/engine.dir/src/market_filtration.cpp.o	d4280dc32890a4fa
+206939	221400	1637506277	CMakeFiles/engine.dir/src/fair_value.cpp.o	fd3fe7cda34e2eeb
+215245	226452	1637506282	CMakeFiles/engine.dir/src/quoting_strategies.cpp.o	f4247384d4ed710a
+217659	226455	1637506282	CMakeFiles/engine.dir/src/quoting_parameters.cpp.o	b0e5feb4d474e4bb
+219923	231112	1637506287	CMakeFiles/engine.dir/src/skew.cpp.o	2067c2b239677b89
+226453	238985	1637506295	CMakeFiles/engine.dir/src/quote_dispatcher.cpp.o	cbd75b5660488e3f
+221402	239116	1637506295	CMakeFiles/engine.dir/src/quoting_engine.cpp.o	cbdfefe1682e563e
+34003	243966	1637506299	tests/CMakeFiles/unit_tests.dir/main.cpp.o	482611551c0ea44
+34423	244932	1637506300	CMakeFiles/main.dir/app/main.cpp.o	1c67590cc3b6b20c
+243966	249047	1637506305	unit_tests	6df688b21d95ba30
+244932	249060	1637506305	main	772d05b2d213e296
+4	7963	1637506387	CMakeFiles/main.dir/app/main.cpp.o	1c67590cc3b6b20c
+7964	9721	1637506389	main	772d05b2d213e296

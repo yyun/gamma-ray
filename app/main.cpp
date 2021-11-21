@@ -23,7 +23,7 @@ using json = nlohmann::json;
 int main()
 {
   // init config
-  std::ifstream i("gamma-ray.json");
+  std::ifstream i("../sample-config.json");
   json config;
   i >> config;
   std::string ws_uri = config["websocketUrl"].get<std::string>();
